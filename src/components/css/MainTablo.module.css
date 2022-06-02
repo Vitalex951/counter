@@ -1,0 +1,45 @@
+.input {
+    width: 100px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.inputerror {
+    width: 100px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 15px;
+    background: rgb(245,245,245);
+    background: linear-gradient(160deg, rgba(245,245,245,1) 36%, rgba(227,3,3,0.4433123591233369) 71%);
+}
+.maincontainer {
+    width: 240px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: floralwhite;
+    text-align: center;
+    padding: 5px;
+
+}
+.buttons {
+    margin: 10px 0px 10px 25px;
+    height: 80px;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.container {
+    padding: 5px ;
+}
+.spantext {
+    margin: 0 5px 0 0;
+    font-weight: 700;
+    font-size: 17px;
+}
