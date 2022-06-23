@@ -14,7 +14,7 @@ function App() {
 
     return (
         <div className="App">
-            <Button name={'v1'} callback={()=> setCounter(!counter)} disabled={false}/>
+            <Button name={'v1'} callback={() => setCounter(!counter)} disabled={false}/>
             {counter ?
                 <CounterV1/>
                 : <Counter/>}
